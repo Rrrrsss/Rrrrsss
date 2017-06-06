@@ -1,20 +1,17 @@
-<script>
-	var yiliaConfig = {
-		mathjax: <%=theme.mathjax%>,
-		isHome: <%=is_home()%>,
-		isPost: <%=is_post()%>,
-		isArchive: <%=is_archive()%>,
-		isTag: <%=is_tag()%>,
-		isCategory: <%=is_category()%>,
-		open_in_new: <%=theme.open_in_new%>,
-		root: "<%=config.root%>",
-		innerArchive: <%=theme.smart_menu.innerArchive ? true : false%>,
-		showTags: <%=(theme.slider && theme.slider.showTags) ? true : false%>
-	}
-</script>
-
-<%- partial('script') %>
-
-<% if (theme.mathjax){ %>
-<%- partial('mathjax') %>
+<% if (theme.github_widget){ %>
+    <%- js('js/GithubRepoWidget') %>
 <% } %>
+<script data-main="<%-config.root%>js/main.js" src="<%- theme.CDN.require %>"></script>
+<%- partial('_partial/background') %>
+<%- partial('comments/count-comment') %>
+<%- partial('google-analytics') %>
+<% if (theme.mathjax){ %>
+    <%- partial('mathjax') %>
+<% } %>
+<%- partial('scrolling-button') %>
+<%- partial('open-in-new-tab', {
+        global: theme.open_in_new.global
+    }) %>
+<%- partial('tab-title-change') %>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
