@@ -90,13 +90,3 @@ service-worker: true
 
 
 
-# Friends
-friends: [
-    {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-        title: "随便",
-    #    href: "没有"
-    }
-]
