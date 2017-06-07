@@ -1,0 +1,13 @@
+---
+layout:     post
+title:      "Bad Blog "
+subtitle:   ""
+date:       2017-06-07 13:35:00
+author:     "Rrrrsss"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 生活
+---
+
+This is a bad blog.Just get use to it.
