@@ -12,10 +12,10 @@ baseurl: "/Rrrrsss"                             # for example, '/blog' if your b
 
 # SNS settings
 RSS: false
-weibo_username:     none
-zhihu_username:     none
-github_username:    Rrrrsss
-twitter_username:   none
+weibo_username:     Rrrrsss
+zhihu_username:     Rrrrsss
+#github_username:    Rrrrsss
+#twitter_username:   none
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 
@@ -74,7 +74,7 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "写写代码，做做设计，<br>学习学习"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/404-bg.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
