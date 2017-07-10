@@ -10,4 +10,4 @@ tags:
     - 生活
 ---
 
-This is a bad blog.Just get use to it.
+This is a bad blog.Just get used to it.
