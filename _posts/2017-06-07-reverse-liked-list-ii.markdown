@@ -22,7 +22,6 @@ return1->4->3->2->5->NULL.
 Note:
 
 Given m, n satisfy the following condition:
-
 1 ≤ m ≤ n ≤ length of list.
 
 
@@ -44,4 +43,5 @@ Given m, n satisfy the following condition:
 	    }
 	    return dummy.next;
 	}
+
 ### 这一题其实思路感觉挺简单的就是一个逆序的问题，值得注意的是在第二个循环的第三步then的next不能直接指向start而是要指向pre的next，至于为什么我也不清楚啦。
