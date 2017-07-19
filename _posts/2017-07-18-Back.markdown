@@ -1,22 +1,22 @@
 ---
 layout:     post
-title:      "�ֻ����� "
+title:      "又回来了 "
 subtitle:   ""
 date:       2017-07-18 14:27:00
 author:     "Rrrrsss"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - ѧϰ
+    - 学习
 ---
 
-���ֻ����ˣ��Դ���һ�β�С�İ�Ubuntuɾ��֮�����Ҳû�ж���������⣬������������һ���Լ���ѧϰ�ƻ���
-�������¶�����Ҫ��web�ˡ���������ֱ���������ϼ��ž��У�������һ��д�������Լ�������ʱ��ʱ��һ����
-</br>webѧϰ�ƻ���
+我又回来了，自从上一次不小心把Ubuntu删掉之后就再也没有动过这个玩意，今天上来更新一下自己的学习计划。
+看来是下定决心要搞web了。本来想着直接在桌面上记着就行，后面想一想写在上面自己还可以时不时看一看。
+</br>web学习计划：
 </br>1.tomcat+
-</br>2.spring MVC����Ҫ�����ϵ�һ���̳�
-</br>3.mysql��jdbc
-</br>4.http��session
-</br>5.jsp��tag��������δ�����jsp����������
-</br>6.maven����Ҫ��pom�ļ��ļ�����Ҫ�Ĳ��֣�������dependency
-</br>7.���ģʽ
+</br>2.spring MVC，主要是网上的一个教程
+</br>3.mysql和jdbc
+</br>4.http和session
+</br>5.jsp，tag到底是如何处理，jsp的生命周期
+</br>6.maven，主要是pom文件的几个主要的部分，尤其是dependency
+</br>7.设计模式
