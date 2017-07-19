@@ -16,10 +16,10 @@ tags:
 
 web学习计划：
 
-*       1 tomcat+
-*       2 spring MVC，主要是网上的一个教程
-*       3 mysql和jdbc
-*       4 http和session
-*       5 jsp，tag到底是如何处理，jsp的生命周期
-*       6 maven，主要是pom文件的几个主要的部分，尤其是dependency
-*       7 设计模式
+1.1 tomcat+
+2.2 spring MVC，主要是网上的一个教程
+3.3 mysql和jdbc
+4.4 http和session
+5.5 jsp，tag到底是如何处理，jsp的生命周期
+6.6 maven，主要是pom文件的几个主要的部分，尤其是dependency
+7.7 设计模式
