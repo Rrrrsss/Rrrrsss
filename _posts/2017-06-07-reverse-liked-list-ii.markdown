@@ -9,7 +9,7 @@ tags:
     - 学习
 ---
 
-### 就是为了这一道题来搞的博客，到现在终于弄完了，可以把这道题写上来做一个学习笔记。
+### 就是为了这一道题来搞的博客，到现在终于弄完了，可以把这道题写上来做一个学习笔记。#
 
 Description:Reverse a linked list from position m to n. Do it in-place and in one-pass.
 
@@ -44,4 +44,4 @@ Given m, n satisfy the following condition:
 	    return dummy.next;
 	}
 
-### 这一题其实思路感觉挺简单的就是一个逆序的问题，值得注意的是在第二个循环的第三步then的next不能直接指向start而是要指向pre的next，至于为什么我也不清楚啦。
+### 这一题其实思路感觉挺简单的就是一个逆序的问题，值得注意的是在第二个循环的第三步then的next不能直接指向start而是要指向pre的next，至于为什么我也不清楚啦。#
