@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="
+http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+
+    <!-- 定义ToRegistAction -->
+    <bean id="toRegistAction"
+    class="com.htgy.actions.ToRegistAction">
+    </bean>
+    <!-- 定义ToLoginAction -->
+    <bean id="toLoginAction"
+    class="com.htgy.actions.ToLoginAction">
+    </bean>
+    
+    <!-- 添加处理器配置 -->
+    <!---定义LoginAction类-->
+    <bean id="loginAction"
+        class="com.htgy.actions.LoginAction">
+        <property name="commandClass">
+            <value>com.htgy.loginform.LoginForm</value>
+        </property>
+        <!-- 指定失败要返回的页面 --> <!-- 需修改 -->
+        <property name="lFailView">
+            <value>loginFail</value>
+        </property>
+        <!-- 指定成功要返回的页面 -->
+        <property name="lSuccessView">
+            <value>loginSuccess</value>
+        </property>
+    </bean>
+    
+    <!-- 定义RegistAction -->
+    <bean id="registAction" 
+    class="com.htgy.actions.RegistAction"> 
+    <property name="commandClass">
+            <value>com.htgy.registform.RegistForm</value>
+    </property>
+    <!-- 注册成功返回的页面 -->
+    <property name="rSuccessView">
+    <value>registSuccess</value>
+    </property>
+    <!-- 取消注册返回的页面 -->
+    <property name="rFailView">
+     <value>registFail</value>
+    </property>
+    </bean>
+    </beans>
