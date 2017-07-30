@@ -1,0 +1,18 @@
+---
+layout:     post
+title:      "ML(1)"
+subtitle:   ""
+date:       2017-07-30 20:55:00
+author:     "Rrrrsss"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 学习
+---
+
+# 使用机器学习的三个条件 #
+
+
+1. 有可以学习得到的潜在目标
+2. 不能够容易得使用编程解决
+3. 存在可输入的学习数据
